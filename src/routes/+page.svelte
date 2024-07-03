@@ -92,7 +92,7 @@ onMount(() => {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: relative;
-  background-color: #fff;
+  background-color: #FEFAE0;
 }
 
 .display {
@@ -135,40 +135,43 @@ onMount(() => {
 }
 
 .calculator button.number {
-  background-color: #7e807e;
+  background-color: #F9D689;
   color: white;
 }
 
 .calculator button.operator {
-  background-color: #FF9800;
+  background-color: #E0A75E;
   color: white;
 }
 
 .calculator button.clear {
-  background-color: #E91E63;
+  background-color: #973131;
   color: white;
 }
 
 .calculator button.equal {
-  background-color: #2196F3;
+  background-color: #973131;
   color: white;
 }
 
 .fun-mode-toggle {
+  background-color: #973131;
+  color: white;
   font-size: 1.5rem;
   width: 300px;
   padding: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  transition: top 0.3s, left 0.3s, transform 0.3s;
   border: 1px solid #ccc;
   border-radius: 8px;
   margin-top: 1rem;
-  background-color: #f0f0f0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .fun-mode-toggle:hover {
-  background-color: #e0e0e0;
+  transform: scale(1.1);
+  background-color: #E0A75E;
 }
 </style>
 
