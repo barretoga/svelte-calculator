@@ -47,7 +47,7 @@ function moveButton(index: number) {
   }
 }
 
-function clearFocusedIndex(): void {
+function clearFocusedIndex() {
   focusedButtonIndex = -1;
 }
 
