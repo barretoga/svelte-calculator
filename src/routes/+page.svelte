@@ -198,4 +198,3 @@ onMount(() => {
     {funMode ? 'Desativar inovação' : 'Ativar inovação'}
   </button>
 </div>
-
