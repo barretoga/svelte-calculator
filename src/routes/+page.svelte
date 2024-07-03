@@ -195,6 +195,6 @@ onMount(() => {
     </div>
   </div>
   <button class="fun-mode-toggle" on:click={toggleFunMode}>
-    {funMode ? 'Desativar inovação' : 'Ativar inovação'}
+    {funMode ? 'Des-inovar💡' : 'Inovar 💡'}
   </button>
 </div>
